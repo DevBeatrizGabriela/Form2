@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        
+            <div class="perfil">
+               <img src="iconseimg/Frame 1.svg" alt="" class="img-mulher">
+                <div class="text-perfil">
+                    <div class="upload">
+                        <p>Upload</p>
+                        <input type="image" src="iconseimg/icons8-upload-20.png" class="upload inputs icons">
+                    </div>
+                    <div class="remove">
+        
+                        <p>Remove</p>
+                        <img src="iconseimg/icons8-apagar-para-sempre-20.png" alt="" class="icons">
+                    </div>
+                </div>
+            </div>
+            <div >
+                <form action="" autocomplete="on" class="form">
+                     <div class="inputbox">
+                         <label class="label">Nome</label><input type="text"  class="nome inputs required" required oninput="nameValidate()">
+                        
+                     </div>
+                    <span class="span">* Nome deve ter no mínimo 3 caracteres.</span>
+                    <input type="text" placeholder="Sobrenome" class="sobrenome inputs required" required oninput="nicknameValidate()">
+                    <span class="span spannickname">* Nome deve ter no mínimo 3 caracteres.</span>
+                    <label for="senha" class="label-senha">Senha</label><input type="password" placeholder="" class="senha inputs required" required >
+                    <img src="" alt="">
+                    
+                    <span class="span spanpassword ">
+                        <h1>Requerimentos</h1>
+                        <p>Conter no mínimo 6 caracteres</p>
+                        <p>Conter uma letra maiúscula</p>
+                        <p>Conter um número (0-9)</p>
+                        <p>Conter caracteres especiais (!@#$%^&*)</p>
+                        <h1>Exemplos</h1>
+                        <p>fkq@*B17Hm@yQD</p>
+                        <p>Rb!1&Y5$wHh4kN</p>
+                    </span>
+                    <input type="password" placeholder="Repita a sua senha" class="senha2 inputs required" required >
+                    <span class="span spanpassword2">* A senha não é a mesma.</span>
+                    <input type="text" placeholder="Cargo" class="cargo inputs required" required>
+                    <button class="botao">Salvar & Continuar</button>
+            </div>
+    </div>

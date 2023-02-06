@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Alexandria';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 600px;
+    min-height: 210px;
+    background-color: rgb(243, 203, 255);
+    border-radius: 30px;
+    padding: 65px 0 50px 0;
+    margin-top: 150px;
+    
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img-mulher {
+    max-width: 150px;
+    display: inline;
+    box-shadow: 0px 0px 45px 6px rgba(0,0,0,0.1),0px 0px 15px -7px black;
+    border-radius: 300px;
+}
+
+.icons {
+    width: 13px;
+}
+
+.text-perfil p {
+    display: inline;
+}
+
+.text-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.upload, .remove {
+    font: 700 13px 'Alexandria';
+}
+
+.remove {
+    margin-top: 10px;
+    color: rgb(216, 10, 10);
+}
+
+span {
+    display: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrenome, .senha, .senha2, .cargo {
+    margin-top: 20px;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid rgb(58, 1, 124);
+    outline: none;
+    font: 100 13px 'Alexandria';
+    padding-bottom: 13px;
+   
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.61);
+   
+}
+
+input::placeholder:active {
+    padding: 12px;
+}
+
+.nome {
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid rgb(58, 1, 124);
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.nome, .sobrenome, .senha, .senha2, .cargo {
+    background-color: transparent;
+}
+
+label:nth-child(1) {
+    position: absolute;
+    top: 200px;
+    transition: padding-top .3s ease-out;
+  padding-top: 10px;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.label { padding-bottom: 20px;
+    transition: padding-bottom .2s, .2s opacity;
+    
+}
+
+input:focus  {
+    
+  transition: padding-top .3s ease-out;
+  padding-top: 10px;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+}
+
+.botao {
+    width: 100%;
+    max-width: 200px;
+    padding: 13px 0;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(58, 1, 124);
+    font: 700 12px 'Alexandria';
+    transition: all 0.2s;
+}
+
+.botao:active {
+    background-color: white;
+    color:rgb(58, 1, 124);
+}
+
